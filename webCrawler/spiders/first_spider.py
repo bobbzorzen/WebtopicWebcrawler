@@ -9,6 +9,8 @@ class FirstSpider(scrapy.Spider):
         "http://www.reddit.com/",
         "http://www.bbc.com/",
         "http://www.huffingtonpost.com/",
+        "https://en.wikipedia.org/wiki/Special:Random",
+        "https://en.wikipedia.org/wiki/Special:Random",
         "https://en.wikipedia.org/wiki/Special:Random"
     ]
     def parse(self, response):
